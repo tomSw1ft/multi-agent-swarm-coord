@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Dependencies to build ROS 2 on Windows"
 authors = ["Chris Lalancette <clalancette@gmail.com>"]
 channels = ["conda-forge"]
-platforms = ["win-64", "linux-64"]
+platforms = ["win-64"]
 
 [target.win-64.activation.env]
 QT_QPA_PLATFORM_PLUGIN_PATH="%cd%\\.pixi\\envs\\default\\Library\\plugins\\platforms"

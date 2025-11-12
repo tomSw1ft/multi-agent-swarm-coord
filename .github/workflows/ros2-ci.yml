@@ -11,7 +11,7 @@ on:
 jobs:
   build-and-test:
     # Runs the job on the latest Ubuntu version
-    runs-on: ubuntu-latest
+    runs-on: windows-2022
     
     # Uses the official ROS 2 Jazzy Docker container
     # This provides a clean environment with ROS 2 pre-installed
