@@ -25,6 +25,8 @@ jobs:
       # Step 2: Installs the Pixi package manager
       - name: Install Pixi
         uses: prefix-dev/setup-pixi@v0.8.1
+        with:
+          post-cleanup: false
 
       # Step 3: Installs all dependencies from pixi.toml/pixi.lock
       - name: Install project dependencies
