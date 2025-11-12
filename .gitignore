@@ -1,0 +1,24 @@
+# Pixi environment
+# This is the most important one!
+# Do NOT upload your virtual environment.
+.pixi/
+
+# ROS 2 / Colcon build artifacts
+build/
+install/
+log/
+
+# Common Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Common OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
